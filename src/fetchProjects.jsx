@@ -13,6 +13,7 @@ export const useFetchProjects = () => {
 
   const getData = async () => {
     try {
+      // we use content_type ID and not content type name
       const response = await client.getEntries({ content_type: 'headlessCms' });
       const projects = response.items.map((item) => {
         const { title, url, image } = item.fields;
