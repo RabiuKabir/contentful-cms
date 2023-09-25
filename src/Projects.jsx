@@ -6,7 +6,7 @@ const Projects = () => {
   if (loading) {
     return (
       <section className='projects'>
-        <h2>Loading....</h2>
+        <h2>Loading...</h2>
       </section>
     );
   }
