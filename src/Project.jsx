@@ -13,4 +13,4 @@ const Project = ({id, url, img, title}) => {
     )
 }
 
-export default Project
+export default Project;
